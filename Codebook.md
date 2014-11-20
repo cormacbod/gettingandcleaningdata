@@ -1,11 +1,15 @@
 Codebook - Analysis of Human Activity Recognition Using Smartphones Dataset
 
 Subject
+
 	Numerical Identifier of each person taking part in the data gathering
+	
 	Values: 1-30 inclusive
 
 Activity
+
 	Names of the types of activity recorded
+	
 	Values:
 		WALKING
 		WALKING_UPSTAIRS
@@ -15,6 +19,7 @@ Activity
 		LAYING
 		
 Measurements:
+
 	A series of results each one the mean of the mean or standard deviation of the results for each subject and for each activity
 	Each measurement name is composed a several identifiers which together uniquely mark out each measurement
 	The identifiers used in the measurement names are as follows:
@@ -34,5 +39,5 @@ Measurements:
 	Z				- measurements taken in the Z-axis
 	Angle			- angle between 2 vectors	
 	
-	values: all raw measurements were normalised to lie between -1 and 1, so the mean measurements o fthe mean and standard deviation will lie between those values too. 
+	values: all raw measurements were normalised to lie between -1 and 1, so the mean measurements of the mean and standard deviation will lie between those values too. 
 	
