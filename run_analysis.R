@@ -48,7 +48,7 @@ xmeans <- select(x, contains("mean"))
 xmeans <- select(xmeans, -contains("Freq"))
 
 #separate out std columns
-xstd <- select(x, contains(".std"))
+xstd <- select(x, contains("std"))
 
 #recombine mean and std columns
 xMeanAndStd <- cbind(xmeans, xstd)
